@@ -1,19 +1,46 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import "./style.css"
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const listAData = [
+    {
+        name: "优质白豆干",
+        price: "￥15.00",
+        button: "立即购买"
+    }, {
+        name: "优质黑豆干",
+        price: "￥15.00",
+        button: "我不要"
+    }, {
+        name: "优质黑豆干",
+        price: "￥15.00",
+        button: "我不要"
+    }, {
+        name: "优质黑豆干",
+        price: "￥15.00",
+        button: "我不要"
+    }, {
+        name: "优质黑豆干",
+        price: "￥15.00",
+        button: "我不要"
+    }
+]
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+let root = document.querySelector("#listA")!
+for (let i = 0; i < listAData.length; i++) {
+    const item = listAData[i]
+
+    root.innerHTML += `
+    <!-- 这里是列表 -->
+    <div>
+      <div>
+        <div>` + item.name + `</div>
+        <div>` + item.price + `</div>
+        <div>` + item.button + `</div>
+      </div>
+    </div>
+    `
+}
+
+
+
+
+export { }
