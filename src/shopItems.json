@@ -1,0 +1,56 @@
+[
+  {
+    "name": "兰州牛肉面",
+    "price": 29.9,
+    "description": "兰州牛肉面，精选优质牛肉，烤全羊肉，酱香浓郁，肉质细嫩，口感鲜美。",
+    "image": "/images/pic (1).jpg"
+  },
+  {
+    "name": "大号泡芙",
+    "price": 6.66,
+    "description": "大号泡芙，香脆可口，酥脆爽口，口感细腻，营养满满。",
+    "image": "/images/pic (1).png"
+  },
+  {
+    "name": "多味薯条",
+    "price": 6.66,
+    "description": "多味薯条，脆脆，甜甜，香香，味道浓郁。",
+    "image": "/images/pic (2).jpg"
+  },
+  {
+    "name": "大号鸡腿",
+    "price": 16.9,
+    "description": "大号鸡腿，肉质细嫩，酥脆爽口，口感鲜美，营养丰富。",
+    "image": "/images/pic (3).jpg"
+  },
+  {
+    "name": "带肉松的面包",
+    "price": 7.9,
+    "description": "带肉松的面包，香脆可口，酥脆爽口，口感细腻，营养满满。",
+    "image": "/images/pic (5).jpg"
+  },
+  {
+    "name": "不一样的泡面",
+    "price": 12.22,
+    "description": "不一样的泡面，似乎不是泡面，但味道很好，营养丰富。",
+    "image": "/images/pic (6).jpg"
+  },
+  {
+    "name": "有好多肉松的饼",
+    "price": 13.66,
+    "description": "有好多肉松的饼，脆脆，甜甜，香香，味道浓郁。",
+    "image": "/images/pic (7).jpg"
+  },
+  {
+    "name": "早餐吃的三明治",
+    "price": 13.66,
+    "description": "早餐吃的三明治，酥脆爽口，口感细腻，营养满满。",
+    "image": "/images/pic (8).jpg"
+  },
+  {
+    "name": "面包，有肉松",
+    "price": 14.66,
+    "description": "面包，有肉松，脆脆，甜甜，香香，味道浓郁。",
+    "image": "/images/pic (9).jpg"
+  }
+]

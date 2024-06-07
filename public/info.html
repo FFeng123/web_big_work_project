@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>详情页面</title>
+  </head>
+  <body>
+    <div class="header">
+      <div onclick="location.href='index.html'">首页</div>
+      <div onclick="location.href='cart.html'">购物车</div>
+      <div style="flex-grow: 1"></div>
+      <div class="btn1" onclick="location.href='login.html'">登录</div>
+      <div class="btn2" onclick="location.href='register.html'">注册</div>
+    </div>
+
+    <div class="main">
+      <div class="box">
+        <div>
+          <div class="title" id="titleA">name</div>
+          <div style="border-radius: 1em; overflow: hidden">
+            <img id="mainimg" />
+          </div>
+        </div>
+        <div class="price" id="priceA">price</div>
+        <div class="buttons">
+          <div class="btn2">立即购买</div>
+          <div class="btn1" id="addCart">加入购物车</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="title">猜你喜欢</div>
+        <div class="list" id="listB"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <div>关于我们</div>
+      <div>联系我们</div>
+      <div>招聘信息</div>
+      <div>友情链接</div>
+    </div>
+  </body>
+</html>

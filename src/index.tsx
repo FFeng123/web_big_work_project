@@ -1,43 +1,28 @@
 import "./style.css"
+import { newListItem } from "./util"
+const listAData = require("./shopItems.json")
+const listBData = require("./shopItems.json");
 
-const listAData = [
-    {
-        name: "优质白豆干",
-        price: "￥15.00",
-        button: "立即购买"
-    }, {
-        name: "优质黑豆干",
-        price: "￥15.00",
-        button: "我不要"
-    }, {
-        name: "优质黑豆干",
-        price: "￥15.00",
-        button: "我不要"
-    }, {
-        name: "优质黑豆干",
-        price: "￥15.00",
-        button: "我不要"
-    }, {
-        name: "优质黑豆干",
-        price: "￥15.00",
-        button: "我不要"
-    }
-]
+(document.querySelector(".sousuo > div") as HTMLDivElement).onclick = () => {
+    window.location.href = `/search.html?${encodeURI((document.querySelector(".sousuo > input") as HTMLInputElement).value)}`
+}
 
 let root = document.querySelector("#listA")!
 for (let i = 0; i < listAData.length; i++) {
     const item = listAData[i]
 
-    root.innerHTML += `
-    <!-- 这里是列表 -->
-    <div>
-      <div>
-        <div>` + item.name + `</div>
-        <div>` + item.price + `</div>
-        <div>` + item.button + `</div>
-      </div>
-    </div>
-    `
+    root.innerHTML += newListItem(item, i)
+}
+
+
+
+root = document.querySelector("#listB")!
+for (let i = 0; i < listBData.length; i++) {
+    const item = listBData[i]
+    // if (item.name.includes("炒")) {
+    root.innerHTML += newListItem(item, i)
+    // }
+
 }
 
 

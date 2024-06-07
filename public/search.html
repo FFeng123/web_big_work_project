@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>搜索页面</title>
+  </head>
+  <body>
+    <div class="header">
+        <div onclick="location.href='index.html'">首页</div>
+        <div onclick="location.href='cart.html'">购物车</div>
+        <div style="flex-grow: 1"></div>
+        <div class="btn1" onclick="location.href='login.html'">登录</div>
+        <div class="btn2" onclick="location.href='register.html'">注册</div>
+      </div>
+
+    <div>
+        <div class="sousuo">
+          <img src="./images/search.svg" alt="" />
+          <input type="text" id="searchInput" />
+          <div>搜索</div>
+        </div>
+        <div class="ssk">
+          <a href="#1">炒菜</a>
+          <a href="#2">饮品</a>
+          <a href="#3">水果</a>
+          <a href="#4">奶茶</a>
+          <a href="#5">烧烤</a>
+          <a href="#6">茅台</a>
+          <a href="#7">牛奶</a>
+          <a href="#8">咖啡</a>
+        </div>
+      </div>
+
+    <div class="main">
+      <div class="box">
+        <div class="title" id="notfound">未找到相关结果</div>
+        <div class="list" id="listB"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <div>关于我们</div>
+      <div>联系我们</div>
+      <div>招聘信息</div>
+      <div>友情链接</div>
+    </div>
+  </body>
+</html>

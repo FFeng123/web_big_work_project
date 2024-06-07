@@ -3,16 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>购物网站</title>
+    <title>好吃 爱吃 多吃</title>
   </head>
   <body>
     <div class="header">
-      <div>收藏本站</div>
-      <div>我的订单</div>
-      <div>购物车</div>
-      <div style="flex-grow: 1"></div>
-      <div class="btn1">登录</div>
-      <div class="btn2">注册</div>
+        <div onclick="location.href='index.html'">首页</div>
+        <div onclick="location.href='cart.html'">购物车</div>
+        <div style="flex-grow: 1"></div>
+        <div class="btn1" onclick="location.href='login.html'">登录</div>
+        <div class="btn2" onclick="location.href='register.html'">注册</div>
+      </div>
+
+    <div>
+      <div class="sousuo">
+        <img src="./images/search.svg" alt="" />
+        <input type="text" />
+        <div>搜索</div>
+      </div>
+      <div class="ssk">
+        <a href="#1">炒菜</a>
+        <a href="#2">饮品</a>
+        <a href="#3">水果</a>
+        <a href="#4">奶茶</a>
+        <a href="#5">烧烤</a>
+        <a href="#6">茅台</a>
+        <a href="#7">牛奶</a>
+        <a href="#8">咖啡</a>
+      </div>
     </div>
 
     <div class="main">
@@ -20,10 +37,8 @@
         <div class="title">今日推荐</div>
         <div class="ctx">
           <div class="leftitem">
-            <div class="big">小林</div>
+            <div class="big"></div>
             <div>
-              是个角色 是个角色 是个角色 是个角色 是个角色 是个角色 是个角色
-              是个角色 是个角色 是个角色
             </div>
           </div>
           <div class="list" id="listA"></div>
@@ -33,64 +48,7 @@
       <div class="box">
         <div class="title">猜你喜欢</div>
 
-        <div class="list">
-          <div>
-            <div>
-              <div>优质白豆干</div>
-              <div>￥15.00</div>
-              <div class="link">查看详情>></div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>优质白豆干</div>
-              <div>￥15.00</div>
-              <div>立即购买</div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>优质白豆干</div>
-              <div>￥15.00</div>
-              <div>立即购买</div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>优质白豆干</div>
-              <div>￥15.00</div>
-              <div>立即购买</div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>优质白豆干</div>
-              <div>￥15.00</div>
-              <div>立即购买</div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>优质白豆干</div>
-              <div>￥15.00</div>
-              <div>立即购买</div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>优质白豆干</div>
-              <div>￥15.00</div>
-              <div>立即购买</div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>优质白豆干</div>
-              <div>￥15.00</div>
-              <div>立即购买</div>
-            </div>
-          </div>
-        </div>
+        <div class="list" id="listB"></div>
       </div>
     </div>
     <div class="footer">
